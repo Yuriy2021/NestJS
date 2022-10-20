@@ -5,6 +5,7 @@ import { renderToast } from './lib.js'
 
 window.addEventListener('DOMContentLoaded', () => {
   renderUserBlock('0')
+  
   renderSearchFormBlock()
   renderSearchStubBlock()
   renderToast(
